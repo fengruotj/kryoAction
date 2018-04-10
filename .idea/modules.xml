@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/kryoAction.iml" filepath="$PROJECT_DIR$/kryoAction.iml" />
+      <module fileurl="file://$PROJECT_DIR$/kryoBenchmark/kryoBenchmark.iml" filepath="$PROJECT_DIR$/kryoBenchmark/kryoBenchmark.iml" />
+      <module fileurl="file://$PROJECT_DIR$/kryoUtils/kryoUtils.iml" filepath="$PROJECT_DIR$/kryoUtils/kryoUtils.iml" />
+    </modules>
+  </component>
+</project>
