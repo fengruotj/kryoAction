@@ -5,6 +5,7 @@ package com.basic.kryo.model;
  * Created by mastertj on 2018/4/10.
  */
 public class User {
+    
     private int id;
     private String name;
     private int age;

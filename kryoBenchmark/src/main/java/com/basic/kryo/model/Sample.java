@@ -1,12 +1,13 @@
 package com.basic.kryo.model;
 
+import java.io.Serializable;
 import java.util.HashMap;
 
 /**
  * locate com.basic.dubbo.model
  * Created by mastertj on 2018/3/28.
  */
-public class Sample {
+public class Sample implements Serializable{
     private String name;
     private int age;
     private HashMap<String,Integer> map;

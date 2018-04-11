@@ -1,10 +1,13 @@
 package com.basic.kryo.model;
 
+import java.io.Serializable;
+
 /**
  * locate com.basic.kryo.model
  * Created by mastertj on 2018/4/10.
  */
-public class User {
+public class User implements Serializable{
+    private static final long serialVersionUID = 307353154199564347L;
     private int id;
     private String name;
     private int age;

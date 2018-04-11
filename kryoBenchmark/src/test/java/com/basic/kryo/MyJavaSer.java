@@ -39,7 +39,8 @@ public class MyJavaSer {
             HashMap<String,Integer> map=new HashMap<>(2);
             map.put("zhangfan0",23);
             map.put("zhangfan1",28);
-            outputStream.writeObject(new Sample(("zhangfan"+i),(i+1), map));
+            Sample sample = new Sample(("zhangfan" + i), (i + 1), map);
+            outputStream.writeObject(sample);
         }
         outputStream.flush();
         outputStream.close();

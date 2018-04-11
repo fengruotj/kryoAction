@@ -7,6 +7,7 @@ import java.util.HashMap;
  * Created by mastertj on 2018/3/28.
  */
 public class Sample {
+
     private String name;
     private int age;
     private HashMap<String,Integer> map;
